@@ -11,7 +11,7 @@ import com.ares.utildemo.app.MyApplication;
  * Created by kxd on 2016/12/14/014.
  */
 
-public class T {
+public class ToastUtil {
 
     private static Toast mToast;
     private static Handler mHandler = new Handler();
