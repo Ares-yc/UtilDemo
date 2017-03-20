@@ -7,6 +7,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.ares.utildemo.utils.DialogUtil;
+import com.ares.utildemo.utils.LogUtil;
 import com.ares.utildemo.utils.ToastUtil;
 
 public class MainActivity extends AppCompatActivity implements OnClickListener{
@@ -23,6 +24,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
         showToast.setOnClickListener(this);
         showDialog.setOnClickListener(this);
+
+        LogUtil.v("测试Verbose");
+        LogUtil.d("测试Debug");
+        LogUtil.i("测试Info");
+        LogUtil.w("测试Warn");
+        LogUtil.e("测试Error");
     }
 
     @Override
